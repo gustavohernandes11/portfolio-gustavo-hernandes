@@ -1,0 +1,15 @@
+.socialbar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 20px;
+}
+.socialbar a {
+    padding: 5px;
+    text-decoration: none;
+    color: var(--main-white-color);
+    margin: 0px;
+        
+
+}
