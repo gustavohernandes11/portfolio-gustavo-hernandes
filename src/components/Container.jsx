@@ -7,6 +7,7 @@ export default function Container(props){
         ${styles.container}
         ${props.main ? styles.maincontainer : false}
         ${props.full ? styles.full : false}
+        ${props.smooth ? styles.smooth : false}
          `}>
             {props.children}
         </div>

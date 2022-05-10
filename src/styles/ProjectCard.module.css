@@ -1,19 +1,30 @@
-.projectcard{
+.projectcard {
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 45%;
+    flex-direction: column;
+    flex-basis: 49%;
+
+    background-color: rgb(46, 44, 56);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.308);
 }
 
 .projectimage, .projectdescription {
-    border-collapse: collapse;
     min-height: 100%;
-    border: 1px solid grey;
 
 }
-.projectimage{
-    flex-grow: 2;
-    margin-right: 10px;
 
+.projectimage {
+    flex-grow: 2;
+    border-radius: 10px;
+
+}
+
+.projectimage img {
+    border-radius: 10px;
 }
 
 .projectdescription {
@@ -21,21 +32,25 @@
     padding: 15px;
     display: flex;
     flex-direction: column;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+
 }
-.projectdescription p{
+
+.projectdescription p {
     flex-grow: 1;
 }
-.projectdescription b{
+
+.projectdescription b {
     font-size: 1.4rem;
 }
+
 .projectnav a {
     padding: 5px;
+    border: 1px solid grey;
     margin: 5px;
-    border: 1px solid grey; 
 }
+
 .projectnav {
+    margin: 25px 5px 0px 5px;
     align-self: flex-end;
     justify-self: flex-end;
 }

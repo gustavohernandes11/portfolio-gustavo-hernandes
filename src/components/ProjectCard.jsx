@@ -7,14 +7,15 @@ export default function ProjectCard(props) {
         <>
             <div className={styles.projectcard}>
                 <div className={styles.projectimage}>
-                    <Image quality="100" src={props.src} alt={props.alt} layout="responsive"  />
+                    <Image quality="100" src={props.src} alt={props.alt} layout="responsive" />
                 </div>
                 <div className={styles.projectdescription}>
                     <b>{props.header}</b>
                     <p>{props.description}</p>
                     <nav className={styles.projectnav}>
-                        <a href={props.githubLink}>Github</a>
-                        <a href={props.deployLink}>Veja online!</a>
+                        {props.githubLink ? (<a href={props.githubLink}>Github</a>) : null}
+                        {props.deployLink ? (<a href={props.deployLink}>Veja online!</a>) : null}
+
                     </nav>
                 </div>
             </div>

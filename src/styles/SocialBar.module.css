@@ -2,9 +2,14 @@
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 50%;
+    bottom: 30%;
     left: 20px;
+    border-radius: 20px;
+    padding: 10px 5px;
+
+    background-color: rgba(0, 0, 0, 0.281);
 }
+
 .socialbar a {
     padding: 5px;
     text-decoration: none;
@@ -15,7 +20,6 @@
 }
 .socialbar a:hover {
     color: rgb(124, 124, 204);
-
     -webkit-transition: 0.3s ease-in;
     -moz-transition: 0.3s ease-in;
     -o-transition: 0.3s ease-in;

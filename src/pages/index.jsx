@@ -1,5 +1,3 @@
-import CRUDvueImage from '../assets/imgs/CRUDvue1.png'
-import notepadImage from '../assets/imgs/notepadHome.png'
 
 import App from '../components/App'
 import Container from '../components/Container'
@@ -13,10 +11,16 @@ import AboutMeContainer from '../components/AboutMeContainer'
 import TecnologyCard from '../components/TecnologyCard'
 
 
+import CRUDvueImage from '../assets/imgs/CRUDvue1.png'
+import notepadImage from '../assets/imgs/notepadHome.png'
+
+
 export default function Home() {
+
   return (
     <App>
-      <SocialBar />
+      
+<SocialBar />
       <Container full main>
         <h1>Gustavo Hernandes</h1>
         <p>Desenvolvedor Web</p>
@@ -28,9 +32,9 @@ export default function Home() {
         <AboutMeContainer />
       </Container>
 
-      <Container full color="#25232e">
+      <Container full color="#1b1b1b">
         <ContainerTitle color="crimson" id="tecnologias">Tecnologias </ContainerTitle>
-        <p>linguagens e ferramentas comumente mais utilizadas em projetos</p>
+        <p>Linguagens e ferramentas comumente mais utilizadas em projetos</p>
         <h2>FrontEnd</h2>
         <div className="flexrow">
           <TecnologyCard content="Javascript" />
@@ -61,15 +65,16 @@ export default function Home() {
         </div>
 
       </Container>
-      <Container full color="#22202b">
+      <Container full color="#22202b" >
         <ContainerTitle id="projetos">Projetos </ContainerTitle>
+<div className="flexrow">
 
         <ProjectCard
           description="Projeto 1Projeto 1Projeto 1Projeto 1Projeto 1Projeto 1Projeto 1"
           alt="Projeto 1"
           src={CRUDvueImage}
           header="Projeto 1"
-          githubLink=""
+          githubLink="."
           deployLink=""
 
         />
@@ -78,24 +83,32 @@ export default function Home() {
           alt="Projeto 1"
           src={notepadImage}
           header="Projeto 1"
-          githubLink=""
+          githubLink="."
           deployLink=""
-
-        />
+          
+          />
         <ProjectCard
           description="Projeto 1Projeto 1Projeto 1Projeto 1Projeto 1Projeto 1Projeto 1"
           alt="Projeto 1"
           src={notepadImage}
           header="Projeto 1"
-          githubLink=""
+          githubLink="."
           deployLink=""
-
-        />
-
+          />
+          <ProjectCard
+          description="Projeto 1Projeto 1Projeto 1Projeto 1Projeto 1Projeto 1Projeto 1"
+          alt="Projeto 1"
+          src={notepadImage}
+          header="Projeto 1"
+          githubLink="."
+          deployLink=""
+          />
+          </div>
+    <p>Veja mais no github!</p>
 
       </Container>
 
-      <Container color="#22202b">
+      <Container color="#22202b" smooth>
         <div className="flexcolumn">
           <Box>
             <ContainerTitle color="blue" id="contato">Contato </ContainerTitle>
@@ -105,7 +118,7 @@ export default function Home() {
         </div>
 
       </Container>
-      <Footer>footer</Footer>
+      <Footer></Footer>
     </App>
   )
 }
