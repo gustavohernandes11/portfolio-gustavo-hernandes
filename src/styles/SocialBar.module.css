@@ -13,3 +13,11 @@
         
 
 }
+.socialbar a:hover {
+    color: rgb(124, 124, 204);
+
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+}

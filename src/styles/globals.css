@@ -2,6 +2,7 @@ html, body, #app {
     margin: 0px;
     padding: 0px;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
 * {
@@ -12,14 +13,16 @@ html, body, #app {
 :root {
     --main-white-color: rgb(233, 233, 233);
     --main-black-color: #121212;
-    --main-orange-color: #FFA500
+    --main-orange-color: #FFA500;
+    --main-grey-color: rgb(184, 184, 184);
 }
 
-button {
+button, input {
     background-color: transparent;
     padding: 10px;
-    color: var(--main-white-color);
-    border: 1px solid var(--main-white-color);
+    border: 1px solid var(--main-grey-color);
+    color: rgb(241, 241, 241);
+
 }
 
 button:hover {
@@ -34,4 +37,15 @@ a {
     -moz-transition: 0.3s ease-in;
     -o-transition: 0.3s ease-in;
     transition: 0.3s ease-in;
+}
+.flexrow {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.flexcolumn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
 }

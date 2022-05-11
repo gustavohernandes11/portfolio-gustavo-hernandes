@@ -6,6 +6,7 @@ export default function Container(props){
          className={`
         ${styles.container}
         ${props.main ? styles.maincontainer : false}
+        ${props.full ? styles.full : false}
          `}>
             {props.children}
         </div>

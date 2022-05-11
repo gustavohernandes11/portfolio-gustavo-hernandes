@@ -11,6 +11,10 @@
     "logs": "firebase functions:log"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
     "firebase-admin": "^9.4.2",
     "firebase-functions": "^3.13.1",
     "next": "latest",

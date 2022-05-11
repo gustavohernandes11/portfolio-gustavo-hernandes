@@ -3,7 +3,7 @@ import Link from 'next/link'
 import styles from '../styles/Main.module.css'
 
 const Header = ({ pathname }) => (
-  <header className={styles.header}>
+  <header id="#headerPage" className={styles.header}>
     <Link href="#sobre">
       <a className={pathname === '/' ? 'is-active' : ''}>Sobre</a>
     </Link>

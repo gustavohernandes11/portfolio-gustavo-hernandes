@@ -17,9 +17,8 @@
 }
 
 .container {
-    padding: 60px 100px;
+    padding: 80px 100px;
     color: var(--main-white-color);
-    height: 100vh;
 
 }
 
@@ -38,10 +37,13 @@
 .maincontainer button:hover {
     border-color: var(--main-orange-color);
     color: var(--main-orange-color);
-    
+
     -webkit-transition: 0.3s ease-in;
     -moz-transition: 0.3s ease-in;
     -o-transition: 0.3s ease-in;
-    transition: 0.3s ease-in;}
+    transition: 0.3s ease-in;
+}
 
-
+.full {
+    min-height: 100vh;
+}
