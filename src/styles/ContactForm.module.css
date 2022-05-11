@@ -1,7 +1,6 @@
 .contactform {
     display: flex;
     flex-wrap: wrap;
-    max-width: 45%;
     justify-self: center;
     align-items: center;
     
