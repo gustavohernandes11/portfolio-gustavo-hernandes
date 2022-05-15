@@ -13,6 +13,7 @@ import TecnologyCard from '../components/TecnologyCard'
 
 import CRUDvueImage from '../assets/imgs/CRUDvue1.png'
 import notepadImage from '../assets/imgs/notepadHome.png'
+import calculatorImage from '../assets/imgs/calculadora2.png'
 
 
 export default function Home() {
@@ -70,37 +71,53 @@ export default function Home() {
 <div className="flexrow">
 
         <ProjectCard
-          description="Projeto 1Projeto 1Projeto 1Projeto 1Projeto 1Projeto 1Projeto 1"
-          alt="Projeto 1"
+          description="Sistema de cadastro de usuários com leitura, alteração, remoção e inserção de informações num Banco de Dados."
+          alt="imagem do projeto"
           src={CRUDvueImage}
-          header="Projeto 1"
-          githubLink="."
+          header="Sistema de controle de usuários"
+          githubLink="https://github.com/gustavohernandes11/usersControl"
           deployLink=""
 
         />
         <ProjectCard
-          description="Projeto 1Projeto 1Projeto 1Projeto 1Projeto 1Projeto 1Projeto 1"
-          alt="Projeto 1"
+          description=" Uma aplicação de bloco de notas para persistir anotações em um banco de dados. Possui sistema de login de usuários."
+          alt="Imagem do projeto notepad"
           src={notepadImage}
-          header="Projeto 1"
-          githubLink="."
+          header="Notepad"
+          githubLink="https://github.com/gustavohernandes11/notepad"
           deployLink=""
           
           />
         <ProjectCard
-          description="Projeto 1Projeto 1Projeto 1Projeto 1Projeto 1Projeto 1Projeto 1"
-          alt="Projeto 1"
+          description="Página que busca por perfis do github e retorna informações relevantes"
+          alt="Imagem da página de buscas de perfis"
           src={notepadImage}
-          header="Projeto 1"
-          githubLink="."
+          header="Github profiles"
+          githubLink="https://github.com/gustavohernandes11/searchProfilesGithub"
           deployLink=""
           />
           <ProjectCard
-          description="Projeto 1Projeto 1Projeto 1Projeto 1Projeto 1Projeto 1Projeto 1"
-          alt="Projeto 1"
+          description="Calculadora simples com React"
+          alt="Imagem da calculadora"
+          src={calculatorImage}
+          header="Calculadora"
+          githubLink="https://github.com/gustavohernandes11/calculator"
+          deployLink=""
+          />
+          <ProjectCard
+          description="Cronômetro feito em React Native"
+          alt="Imagem do cronometro"
           src={notepadImage}
-          header="Projeto 1"
-          githubLink="."
+          header="Cronômetro"
+          githubLink="https://github.com/gustavohernandes11/timerApp"
+          deployLink=""
+          />
+          <ProjectCard
+          description="Jogo criado com Reactjs"
+          alt="Imagem do projeto jogo da velha"
+          src={notepadImage}
+          header="Jogo da memória"
+          githubLink="https://github.com/gustavohernandes11/jogoDaMemoria"
           deployLink=""
           />
           </div>

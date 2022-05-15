@@ -8,7 +8,7 @@ const AboutMeContainer = (props) => (
             <p>event - compiled successfully in 287 ms (125 modules)event - compiled successfully in 287 ms (125 modules)event - compiled successfully in 287 ms (125 modules)event - compiled successfully in 287 ms (125 modules)</p>
           </div>
           <div className={styles.aboutmeimage}>
-          <img src="./../assets/imgs/gustavohernandes.png" alt="Foto do autor"  />
+          <img src="https://github.com/gustavohernandes11.png" alt="Avatar"  />
           </div>
 </div>
       
