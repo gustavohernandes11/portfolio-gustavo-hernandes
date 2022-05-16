@@ -7,7 +7,7 @@ export default function ProjectCard(props) {
         <>
             <div className={styles.projectcard}>
                 <div className={styles.projectimage}>
-                    <Image quality="100" src={props.src} alt={props.alt} layout="responsive" />
+                    <Image quality="100" src={props.src} alt={props.alt} height={200} width={420}  layout="responsive" />
                 </div>
                 <div className={styles.projectdescription}>
                     <b>{props.header}</b>

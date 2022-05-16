@@ -31,11 +31,12 @@
     padding: 15px;
     display: flex;
     flex-direction: column;
-
+    
 }
 
+
 .projectdescription p {
-    flex-grow: 1;
+    height: 80px;
 }
 
 .projectdescription b {
