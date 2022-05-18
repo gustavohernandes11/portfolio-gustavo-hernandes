@@ -1,12 +1,12 @@
 .tecnologycard {
-    border: 1px solid grey;
+    border-left: 1px solid rgb(141, 77, 141);
     margin-right: 5px;
     display: flex;
 }
 
 .tecnologyicon {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .tecnologycontent {

@@ -50,3 +50,12 @@ a {
     flex-direction: column;
     justify-content: space-around;
 }
+.techcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.techcontainer div {
+    flex-basis: 24%;
+    
+}

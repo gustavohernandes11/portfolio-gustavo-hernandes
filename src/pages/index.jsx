@@ -34,35 +34,36 @@ export default function Home() {
       </Container>
 
       <Container full color="#1b1b1b">
-        <ContainerTitle color="crimson" id="tecnologias">Tecnologias </ContainerTitle>
+        <ContainerTitle color="purple" id="tecnologias">Tecnologias </ContainerTitle>
         <p>Linguagens e ferramentas comumente mais utilizadas em projetos</p>
+        <div className="techcontainer">
+        <div >
         <h2>FrontEnd</h2>
-        <div className="flexrow">
-          <TecnologyCard content="Javascript" />
+          <TecnologyCard content="Javascript/Typescript" />
           <TecnologyCard content="HTML" />
           <TecnologyCard content="CSS" />
           <TecnologyCard content="Reactjs e seu ecossistema" />
           <TecnologyCard content="Vue e seu ecossistema" />
-          <TecnologyCard content="Typescript" />
           <TecnologyCard content="Bootstrap" />
         </div>
+        <div >
         <h2>BackEnd</h2>
-        <div className="flexrow">
           <TecnologyCard content="Nodejs" />
           <TecnologyCard content="Firebase" />
           <TecnologyCard content="Express" />
         </div>
+        <div >
         <h2>Banco de dados</h2>
-        <div className="flexrow">
           <TecnologyCard content="Knex" />
           <TecnologyCard content="Postgresql" />
           <TecnologyCard content="Mongodb" />
         </div>
+        <div >
         <h2>Controle e criação</h2>
-        <div className="flexrow">
           <TecnologyCard content="Git" />
           <TecnologyCard content="Github" />
           <TecnologyCard content="Figma" />
+        </div>
         </div>
 
       </Container>
