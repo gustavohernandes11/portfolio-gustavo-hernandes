@@ -1,3 +1,3 @@
 # Portfolio 
 
-configuração retirada de 'with Firebase Hosting example'
+Meu Portfolio, criado com Next.js.
