@@ -4,6 +4,16 @@
     display: flex;
 }
 
+.tecnologycard:hover {
+    border-left: 3px solid rgb(141, 77, 141);
+    color:rgb(196, 84, 196);
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+    cursor:default;
+}
+
 .tecnologyicon {
     width: 30px;
     height: 30px;
@@ -13,4 +23,11 @@
     flex-grow: 1;
     align-items: center;
     padding: 0px 15px;
+}
+@media only screen and (max-width: 700px) {
+    .tecnologycontent {
+        padding: 0px 15px;
+    }
+
+    
 }

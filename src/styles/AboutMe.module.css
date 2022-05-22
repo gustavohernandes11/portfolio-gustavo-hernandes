@@ -1,31 +1,50 @@
 .aboutmecontainer {
-    min-height: 80vh;
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
 
 }
 .aboutmedescription, .aboutmeimage {
     display: flex;
-    align-items: center;
     justify-content: center;
 
 
 }
 .aboutmedescription{
+    text-align: start;
+
     flex-direction: column;
-    flex-grow: 2;
-    max-width: 50%;
+    flex: 2;
+}
+.aboutmedescription b {
+    color: rgb(255, 165, 0);
 }
 .aboutmeimage {
-    flex-grow: 1;
-    justify-content: flex-end;
+    flex: 1;
+    padding: 50px;
     
 }
 .aboutmeimage img {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.377);
-    width: 360px;
-    height: 360px;
+flex: 1;
     border-radius: 350px;
-    border: 1px solid rgb(214, 214, 214)
+    border: 1px solid rgb(214, 214, 214);
+    max-width: 250px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .aboutmecontainer {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    
+    }
+    .aboutmeimage img {
+        width: 200px;
+        height: 200px;
+    }
+    
 }

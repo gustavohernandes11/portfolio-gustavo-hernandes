@@ -13,8 +13,8 @@ export default function ProjectCard(props) {
                     <b>{props.header}</b>
                     <p>{props.description}</p>
                     <nav className={styles.projectnav}>
-                        {props.githubLink ? (<a href={props.githubLink}>Github</a>) : null}
-                        {props.deployLink ? (<a href={props.deployLink}>Veja online!</a>) : null}
+                        {props.githubLink ? (<a href={props.githubLink}><button>Github</button></a>) : null}
+                        {props.deployLink ? (<a href={props.deployLink}><button>Veja online!</button></a>) : null}
 
                     </nav>
                 </div>

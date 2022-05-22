@@ -1,5 +1,8 @@
 import * as React from 'react'
 import styles from '../styles/Footer.module.css'
+import { faArrowUpLong } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 const Footer = (props) => (
   <footer className={styles.footer}>
@@ -11,7 +14,8 @@ const Footer = (props) => (
         behavior: 'smooth'
       })}
 
-    >/\</button>
+    >      <a href="/"><FontAwesomeIcon icon={faArrowUpLong} /></a>
+    </button>
   </footer>
 )
 

@@ -1,0 +1,30 @@
+.contactcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: row
+}
+
+.contactcontainer span {
+    flex-direction: row;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.contactcontainer svg {
+    margin: 10px;
+    font-size: 2rem;
+}
+.contactcontainer span:hover {
+    color:#5454bd;
+
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}

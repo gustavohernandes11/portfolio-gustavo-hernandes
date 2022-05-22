@@ -1,12 +1,18 @@
 import * as React from 'react'
 import styles from '../styles/SocialBar.module.css'
+import {  } from '@fortawesome/free-solid-svg-icons'
+import { faFacebook, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons' 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const SocialBar = () => (
+
+
+
+const SocialBar = (props) => (
   <div className={styles.socialbar}>
-      <a href="/">G</a>
-      <a href="/">F</a>
-      <a href="/">T</a>
-      <a href="/">L</a>
+      <a href="/"><FontAwesomeIcon icon={faGithub}/></a>
+      <a href="/"><FontAwesomeIcon icon={faFacebook}/></a>
+      <a href="/"><FontAwesomeIcon icon={faInstagram}/></a>
+
   </div>
 )
 

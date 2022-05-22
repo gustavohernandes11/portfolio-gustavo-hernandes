@@ -3,7 +3,7 @@ import * as React from 'react'
 
 const ContainerTitle = (props) => (
   <div className="flexrow">
-  <p style={{color: props.color || 'orange', fontSize: '2rem', fontWeight: '700'}}>_</p>
+  <p style={{color: props.color || 'orange', fontSize: '2rem', fontWeight: '700'}}># </p>
   <h1 id={props.id}> 
   {props.children}</h1>
   </div>

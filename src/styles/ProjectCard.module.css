@@ -2,14 +2,16 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    margin: 5px;
-    padding: 10px;
+    margin: 12px;
+    min-width: 30vw;
+    border-collapse: collapse;
     border-radius: 10px;
     flex-basis: 45%;
     flex-grow: 1;
-    background-color: rgb(46, 44, 56);
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.308);
+    border: 1px solid rgba(252, 252, 252, 0.301);
+    
 }
+
 
 .projectimage, .projectdescription {
     min-height: 100%;
@@ -19,11 +21,14 @@
 .projectimage {
     flex-grow: 2;
     border-radius: 10px;
+    border: 1px solid rgb(92, 92, 92);
+
     
 }
 
 .projectimage img {
     border-radius: 10px;
+
 }
 
 .projectdescription {
@@ -31,26 +36,41 @@
     padding: 15px;
     display: flex;
     flex-direction: column;
+    cursor:default;
     
 }
 
 
 .projectdescription p {
     height: 80px;
+    cursor:default;
+
 }
 
 .projectdescription b {
     font-size: 1.4rem;
-}
+    cursor:default;
 
-.projectnav a {
-    padding: 5px;
-    border: 1px solid grey;
-    margin: 5px;
 }
 
 .projectnav {
     margin: 25px 5px 0px 5px;
     align-self: flex-end;
     justify-self: flex-end;
+}
+.projectcard button {
+    border: 1px solid rgba(252, 252, 252, 0.301);
+    border-radius: 10px;
+
+
+}
+.projectcard button:hover {
+    border-color: crimson;
+    color: rgb(247, 55, 93);
+    border-radius: 10px;
+
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
 }

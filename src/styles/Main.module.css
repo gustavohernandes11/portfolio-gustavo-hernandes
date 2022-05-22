@@ -17,19 +17,17 @@
 }
 
 .container {
-    padding: 80px 100px;
+    padding: 30px 100px;
     color: var(--main-white-color);
 
 }
-
 .maincontainer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     padding: 50px 250px;
-
-    background-image: url('../assets/imgs/lake-6481492_1920.jpg');
+    background-image: url('../assets/imgs/low-angle-shot-of-the-mesmerizing-starry-sky.jpg');
     background-attachment: fixed;
     background-size:cover
 }
@@ -53,4 +51,33 @@
 }
 .smooth {
     background-image: linear-gradient(#22202b, #05030f)
+}
+@media only screen and (max-width: 700px) {
+    .header {
+        position: fixed;
+        width: 100%;
+        padding: 10px;
+        background-color: #121212
+    }
+    .header a {
+        font-weight: 300;
+        font-size: 0.8rem;
+    }
+    .container {
+        padding: 10px 15px;    
+    } 
+    .maincontainer {
+        justify-content: center;
+        align-items: center;
+        padding: 50px 10px;
+    }
+    .maincontainer h1 {
+        text-align: center;
+    }
+    .header a {
+    text-decoration: none;
+    color: var(--main-white-color);
+    font-weight: 500;
+    padding: 0px 10px;
+}
 }
