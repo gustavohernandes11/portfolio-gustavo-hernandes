@@ -13,7 +13,7 @@ import TecnologyCard from '../components/TecnologyCard'
 
 import CRUDvueImage from '../assets/imgs/CRUDvue1.png'
 import notepadImage from '../assets/imgs/notepadHome.png'
-import calculatorImage from '../assets/imgs/calculadora2.png'
+import calculatorImage from '../assets/imgs/calculadora.png'
 
 
 export default function Home() {
@@ -107,7 +107,6 @@ export default function Home() {
           <ProjectCard
             description="Cronômetro feito em React Native"
             alt="Imagem do cronometro"
-            src={notepadImage}
             header="Cronômetro"
             githubLink="https://github.com/gustavohernandes11/timerApp"
             deployLink=""
@@ -115,7 +114,6 @@ export default function Home() {
           <ProjectCard
             description="Jogo criado com Reactjs"
             alt="Imagem do projeto jogo da velha"
-            src={notepadImage}
             header="Jogo da memória"
             githubLink="https://github.com/gustavohernandes11/jogoDaMemoria"
             deployLink=""
