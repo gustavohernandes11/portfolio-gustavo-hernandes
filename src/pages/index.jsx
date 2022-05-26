@@ -82,9 +82,9 @@ export default function Home() {
           <ProjectCard
             description="Página que busca por perfis do github e retorna informações relevantes"
             alt="Imagem da página de buscas de perfis"
-            src={notepadImage}
+            src={null}
             header="Github profiles"
-            githubLink="https://github.com/gustavohernandes11/searchProfilesGithub"
+            githubLink="https://github.com/gustavohernandes11/search-github-profiles"
             deployLink=""
           />
           <ProjectCard
@@ -102,12 +102,13 @@ export default function Home() {
             src={calculatorImage}
             header="Calculadora"
             githubLink="https://github.com/gustavohernandes11/calculator"
-            deployLink=""
+            deployLink="https://calculadora11.netlify.app/"
           />
           <ProjectCard
             description="Cronômetro feito em React Native"
             alt="Imagem do cronometro"
             header="Cronômetro"
+            src={null}
             githubLink="https://github.com/gustavohernandes11/timerApp"
             deployLink=""
           />
@@ -115,6 +116,7 @@ export default function Home() {
             description="Jogo criado com Reactjs"
             alt="Imagem do projeto jogo da velha"
             header="Jogo da memória"
+            src={null}
             githubLink="https://github.com/gustavohernandes11/jogoDaMemoria"
             deployLink=""
           />

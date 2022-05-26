@@ -59,6 +59,7 @@
     justify-self: flex-end;
 }
 .projectcard button {
+    margin-left: 5px;
     border: 1px solid rgba(252, 252, 252, 0.301);
     border-radius: 10px;
 
