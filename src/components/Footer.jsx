@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 const Footer = (props) => (
-  <footer className={styles.footer}>
+  <footer id="footer" className={styles.footer}>
     {props.children}
     <button className={styles.goHomeButton} id="goHomeButton"
 
@@ -14,7 +14,7 @@ const Footer = (props) => (
         behavior: 'smooth'
       })}
 
-    >      <a href="/"><FontAwesomeIcon icon={faArrowUpLong} /></a>
+    >      <a href="/"><FontAwesomeIcon  icon={faArrowUpLong} /></a>
     </button>
   </footer>
 )

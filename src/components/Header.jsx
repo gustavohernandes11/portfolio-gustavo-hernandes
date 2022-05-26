@@ -13,7 +13,7 @@ const Header = ({ pathname }) => (
     <Link href="#projetos">
       <a className={pathname === '/' ? 'is-active' : ''}>Projetos</a>
     </Link>
-    <Link href="#contato">
+    <Link href="#footer">
       <a className={pathname === '/' ? 'is-active' : ''}>Contato</a>
     </Link>
 

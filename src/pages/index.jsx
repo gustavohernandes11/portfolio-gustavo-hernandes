@@ -124,17 +124,16 @@ export default function Home() {
         </div>
 
       </Container>
-
-      <Container color="#22202b" smooth>
-        <Box>
-          <ContainerTitle color="#1f1fbb" id="contato">Contato </ContainerTitle>
-          <p>Me envie uma mensagem :)</p>
-          <ContactForm />
-        </Box>
-      </Container>
       <Footer>
+        <span>
+          <b>Entre em contato:</b>
+        <ContactForm />
+        </span>
         <p>
-          Atribuição: <a href='https://br.freepik.com/fotos-vetores-gratis/noite'>Noite foto criado por wirestock - br.freepik.com</a>
+          Atribuição:
+        </p>
+        <p>
+           <a href='https://br.freepik.com/fotos-vetores-gratis/noite'>Noite foto criado por wirestock - br.freepik.com</a>
         </p>
       </Footer>
     </App>
