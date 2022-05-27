@@ -4,6 +4,7 @@ import styles from '../../styles/ProjectContainer.module.css'
 import ContainerTitle from '../ContainerTitle.jsx'
 
 import CRUDvueImage from '../../assets/imgs/CRUDvue1.png'
+import searchGithubProfilesImage from '../../assets/imgs/search-github-profiles.png'
 import notepadImage from '../../assets/imgs/notepadHome.png'
 import calculatorImage from '../../assets/imgs/calculadora.png'
 
@@ -15,7 +16,7 @@ const ProjectContainer = () => {
 
                 <ProjectCard
                     description="Sistema de cadastro de usuários com leitura, alteração, remoção e inserção de informações num Banco de Dados."
-                    alt="imagem do projeto"
+                    alt="Imagem do projeto cadastro de usuários"
                     src={CRUDvueImage}
                     header="Controle de usuários"
                     githubLink="https://github.com/gustavohernandes11/usersControl"
@@ -25,7 +26,7 @@ const ProjectContainer = () => {
                 <ProjectCard
                     description="Página que busca por perfis do github e retorna informações relevantes"
                     alt="Imagem da página de buscas de perfis"
-                    src={null}
+                    src={searchGithubProfilesImage}
                     header="Github profiles"
                     githubLink="https://github.com/gustavohernandes11/search-github-profiles"
                     deployLink=""
@@ -49,7 +50,7 @@ const ProjectContainer = () => {
                 />
                 <ProjectCard
                     description="Cronômetro feito em React Native"
-                    alt="Imagem do cronometro"
+                    alt="Imagem do projeto cronometro"
                     header="Cronômetro"
                     src={null}
                     githubLink="https://github.com/gustavohernandes11/timerApp"
