@@ -1,4 +1,13 @@
+
 .aboutmecontainer {
+    border-top: 1px solid rgba(199, 199, 199, 0.452);
+    border-bottom: 1px solid rgba(199, 199, 199, 0.452);
+
+    background-color: #121212;
+    padding: 100px;
+    color: var(--main-white-color);
+}
+.aboutme {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -36,7 +45,7 @@ flex: 1;
 
 
 @media only screen and (max-width: 1000px) {
-    .aboutmecontainer {
+    .aboutme {
         justify-content: center;
         align-items: center;
         flex-direction: column-reverse;

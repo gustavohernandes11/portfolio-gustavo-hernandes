@@ -1,0 +1,48 @@
+.techcontainer {
+    background-color: #131313;
+    padding: 100px;
+    color: var(--main-white-color);
+    border-bottom: 1px solid rgba(199, 199, 199, 0.452);
+}
+
+.tecnologycard {
+    display: flex;
+    flex-direction: row;
+    color: rgb(194, 98, 194);
+    font-weight: 500;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.tecnologycard:hover {
+    color: rgb(196, 148, 196);
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+    cursor: default;
+}
+
+.tecnologyicon {
+    width: 20px;
+    height: 20px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+}
+
+.tecnologycontent {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+@media only screen and (max-width: 700px) {
+    .tecnologycontent {
+        padding: 0px 15px;
+    }
+
+
+}

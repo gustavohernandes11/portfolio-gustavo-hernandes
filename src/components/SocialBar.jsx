@@ -1,6 +1,5 @@
 import * as React from 'react'
 import styles from '../styles/SocialBar.module.css'
-import {  } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons' 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
