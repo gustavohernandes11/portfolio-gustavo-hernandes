@@ -1,5 +1,5 @@
 .header {
-    right: 10px;
+    z-index: 99;
     padding: 10px 20px;
     position: absolute;
     padding: 20px 100px;
@@ -8,7 +8,6 @@
 .header a {
     text-decoration: none;
     color: var(--main-white-color);
-    font-weight: 500;
     padding: 0px 10px;
 }
 .header a:hover {
@@ -27,8 +26,7 @@
     align-items: flex-start;
     justify-content: center;
     padding: 50px 250px;
-    background-image: url('../assets/imgs/low-angle-shot-of-the-mesmerizing-starry-sky.jpg');
-    background-attachment: fixed;
+    background-image: url('../assets/imgs/low-angle-shot-of-the-mesmerizing-starry-sky-min.jpg');
     background-size:cover
 }
 .maincontainer h1 {
@@ -55,13 +53,13 @@
 @media only screen and (max-width: 700px) {
     .header {
         position: fixed;
-        width: 100%;
+        width: 120%;
         padding: 10px;
-        background-color: #121212
+        background-color: #121212;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.425);
     }
     .header a {
-        font-weight: 300;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .container {
         padding: 10px 15px;    

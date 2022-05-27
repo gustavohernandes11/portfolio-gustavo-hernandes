@@ -40,9 +40,12 @@
 }
 
 @media only screen and (max-width: 700px) {
-    .tecnologycontent {
+    .techcontainer {
         padding: 0px 15px;
     }
-
+    .tecnologycard {
+        padding: 0px;
+        font-size: 1rem;
+    }
 
 }
