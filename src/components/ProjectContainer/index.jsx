@@ -29,7 +29,7 @@ const ProjectContainer = () => {
                     src={searchGithubProfilesImage}
                     header="Github profiles"
                     githubLink="https://github.com/gustavohernandes11/search-github-profiles"
-                    deployLink=""
+                    deployLink="https://searchprofilesgithub.netlify.app"
                 />
                 <ProjectCard
                     description=" Uma aplicação de bloco de notas para persistir anotações em um banco de dados. Possui sistema de login de usuários."
