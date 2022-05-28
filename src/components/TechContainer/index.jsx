@@ -3,7 +3,6 @@ import TecnologyCard from './TecnologyCard'
 import ContainerTitle from '../ContainerTitle'
 import styles from '../../styles/TechContainer.module.css'
 import { faJsSquare, faHtml5, faReact, faVuejs, faBootstrap, faNodeJs, faGitSquare, faFigma, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
-import { faCode } from '@fortawesome/free-solid-svg-icons'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -24,14 +23,14 @@ const TechContainer = () => {
                 <div >
                     <h2>BackEnd</h2>
                     <TecnologyCard content="Nodejs" icon={<FontAwesomeIcon icon={faNodeJs}/>}/>
-                    <TecnologyCard content="Firebase" icon={<FontAwesomeIcon icon={faCode}/>}/>
-                    <TecnologyCard content="Express" icon={<FontAwesomeIcon icon={faCode}/>}/>
+                    <TecnologyCard content="Firebase"/>
+                    <TecnologyCard content="Express"/>
                 </div>
                 <div >
                     <h2>Banco de dados</h2>
-                    <TecnologyCard content="Knex" icon={<FontAwesomeIcon icon={faCode}/>}/>
-                    <TecnologyCard content="Postgresql" icon={<FontAwesomeIcon icon={faCode}/>}/>
-                    <TecnologyCard content="Mongodb" icon={<FontAwesomeIcon icon={faCode}/>}/>
+                    <TecnologyCard content="Knex"/>
+                    <TecnologyCard content="Postgresql"/>
+                    <TecnologyCard content="Mongodb"/>
                 </div>
                 <div >
                     <h2>Controle e criação</h2>
