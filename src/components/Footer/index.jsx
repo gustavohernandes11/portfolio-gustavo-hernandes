@@ -9,10 +9,9 @@ const Footer = () => (
     <footer id="footer" className={styles.footer}>
             <b>Entre em contato:</b>
         <span>
-
-            <span>
+            <span >
                 <FontAwesomeIcon icon={faWhatsapp} />
-                <p>(17) 996560749</p>
+                <a href="http://api.whatsapp.com/send?1=pt_BR&phone=55017996560749"><p>(17) 996560749</p></a>
             </span>
             <span>
                 <FontAwesomeIcon icon={faEnvelope} />

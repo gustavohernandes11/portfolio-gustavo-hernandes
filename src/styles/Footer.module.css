@@ -22,23 +22,10 @@
 
 .footer p {
     font-size: 0.8rem;
-
-
 }
-
-@media only screen and (max-width: 700px) {
-    .footer {
-        padding: 60px 15px;
-
-    }
-
-    .footer span {
-        flex-wrap: wrap;
-    }
+.footer .whatsapplink {
+    color: rgb(36, 194, 36)
 }
-
-
-
 
 .goHomeButton {
     width: 50px;
@@ -59,3 +46,24 @@
     -o-transition: 0.3s ease-in;
     transition: 0.3s ease-in;
 }
+
+
+@media only screen and (max-width: 700px) {
+    .footer {
+        padding: 60px 15px;
+
+    }
+    
+    .footer span {
+        flex-wrap: wrap;
+    }
+    .goHomeButton {
+        bottom: 5px;
+        right: 5px;
+
+    }
+}
+
+
+
+

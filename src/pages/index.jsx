@@ -19,10 +19,10 @@ export default function Home() {
         <SocialBar />
         <a href="#sobre"><button>Saiba mais</button></a>
       </Container>
-        <AboutMeContainer />
+      <AboutMeContainer />
       <TechContainer />
-<ProjectContainer />
-      <Footer/>
+      <ProjectContainer />
+      <Footer />
     </App>
   )
 }

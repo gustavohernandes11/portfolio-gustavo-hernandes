@@ -7,11 +7,22 @@
 
 .tecnologycard {
     display: flex;
+    align-items: center;
+    flex-grow: 0;
     flex-direction: row;
     color: rgb(194, 98, 194);
     font-weight: 500;
     margin-right: 5px;
     padding: 5px;
+}
+.techcolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.techcolumn h2 {
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .tecnologycard:hover {
@@ -36,13 +47,23 @@
     display: flex;
     flex-grow: 1;
     align-items: center;
+    justify-content: space-between;
     padding: 0px 15px;
+}
+@media only screen and (max-width: 1000px) {
+    .techcontainer {
+        padding: 50px 15px;
+    }
 }
 
 @media only screen and (max-width: 700px) {
     .techcontainer {
-        padding: 0px 15px;
+        padding: 50px 15px;
     }
+    .techcontainer p {
+        text-align: center;
+    }
+
     .tecnologycard {
         padding: 0px;
         font-size: 1rem;

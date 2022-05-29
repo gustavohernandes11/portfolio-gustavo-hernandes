@@ -1,23 +1,27 @@
-import * as React from 'react'
+import React from 'react'
 import Link from 'next/link'
 import styles from '../styles/Main.module.css'
 
-const Header = ({ pathname }) => (
-  <header id="#headerPage" className={styles.header}>
-    <Link href="#sobre">
-      <a className={pathname === '/' ? 'is-active' : ''}>Sobre</a>
-    </Link>
-    <Link href="#tecnologias">
-      <a className={pathname === '/' ? 'is-active' : ''}>Tecnologias</a>
-    </Link>
-    <Link href="#projetos">
-      <a className={pathname === '/' ? 'is-active' : ''}>Projetos</a>
-    </Link>
-    <Link href="#footer">
-      <a className={pathname === '/' ? 'is-active' : ''}>Contato</a>
-    </Link>
+function Header() {
+  return (
+    <>
+      <header id="#headerPage" className={styles.header}>
+        <Link href="#sobre">
+          <a >Sobre</a>
+        </Link>
+        <Link href="#tecnologias">
+          <a >Tecnologias</a>
+        </Link>
+        <Link href="#projetos">
+          <a >Projetos</a>
+        </Link>
+        <Link href="#footer">
+          <a >Contato</a>
+        </Link>
 
-  </header>
-)
+      </header>
+    </>
+  )
+}
 
 export default Header

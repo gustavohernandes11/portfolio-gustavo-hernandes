@@ -12,7 +12,7 @@ const TechContainer = () => {
             <ContainerTitle color="purple" id="tecnologias">Tecnologias </ContainerTitle>
             <p>Linguagens e ferramentas comumente utilizadas em projetos</p>
             <div className="techcontainer">
-                <div >
+                <div className={styles.techcolumn} >
                     <h2>FrontEnd</h2>
                     <TecnologyCard content="Javascript/Typescript" icon={<FontAwesomeIcon icon={faJsSquare}/>} />
                     <TecnologyCard content="HTML/CSS" icon={<FontAwesomeIcon icon={faHtml5}/>}/>
@@ -20,19 +20,19 @@ const TechContainer = () => {
                     <TecnologyCard content="Vue"  icon={<FontAwesomeIcon icon={faVuejs}/>}/>
                     <TecnologyCard content="Bootstrap"  icon={<FontAwesomeIcon icon={faBootstrap}/>}/>
                 </div>
-                <div >
+                <div className={styles.techcolumn} >
                     <h2>BackEnd</h2>
                     <TecnologyCard content="Nodejs" icon={<FontAwesomeIcon icon={faNodeJs}/>}/>
-                    <TecnologyCard content="Firebase"/>
+                    <TecnologyCard content="GraphQl"/>
                     <TecnologyCard content="Express"/>
-                </div>
-                <div >
-                    <h2>Banco de dados</h2>
                     <TecnologyCard content="Knex"/>
+                </div>
+                <div className={styles.techcolumn}>
+                    <h2>Banco de dados</h2>
                     <TecnologyCard content="Postgresql"/>
                     <TecnologyCard content="Mongodb"/>
                 </div>
-                <div >
+                <div className={styles.techcolumn}>
                     <h2>Controle e criação</h2>
                     <TecnologyCard content="Git"  icon={<FontAwesomeIcon icon={faGitSquare}/>}/>
                     <TecnologyCard content="Github"  icon={<FontAwesomeIcon icon={faGithubSquare}/>}/>
